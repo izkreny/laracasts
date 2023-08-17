@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
+    <title>Associative Arrays - Homework</title>
 </head>
 
 <body>
@@ -10,14 +10,14 @@
         $books = [
             [
                 'name' => 'Do Androids Dream of Electric Sheep',
-                'year' => 1968,
                 'author' => 'Philip K. Dick',
+                'releaseYear' => 1968,
                 'purchaseUrl' => 'http://example.com'
             ],
             [
                 'name' => 'Project Hail Mary',
-                'year' => 2021,
                 'author' => 'Andy Weir',
+                'releaseYear' => 2021,
                 'purchaseUrl' => 'http://example.com'
             ]
         ];
@@ -26,8 +26,9 @@
     <ul>
         <?php foreach ($books as $book) : ?>
             <li>
-                <a href="<?= $book['purchaseUrl'] ?>"><?= $book['name'] ?></a>
-                (<?= $book['year'] ?>)
+                <a href="<?= $book['purchaseUrl'] ?>">
+                    <?= $book['name'] ?> (<?= $book['releaseYear'] ?>)
+                </a>
             </li>
         <?php endforeach; ?>
     </ul>

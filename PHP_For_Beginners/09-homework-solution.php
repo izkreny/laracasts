@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
+    <title>Lambda Functions - Homework</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         ];
 
         $filteredBooks = array_filter($books, function ($book) {
-            return ($book['releaseYear'] >= 1950 AND $book['releaseYear'] <= 2020);
+            return ($book['releaseYear'] >= 1950 and $book['releaseYear'] <= 2020);
         });
     ?>
 

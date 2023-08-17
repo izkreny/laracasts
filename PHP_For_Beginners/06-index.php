@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
+    <title>Arrays</title>
 </head>
 <body>
     <h1>Recommended Books</h1>
@@ -20,5 +20,6 @@
             <li><?= $book ?></li>
         <?php endforeach; ?>
     </ul>
+
 </body>
 </html>

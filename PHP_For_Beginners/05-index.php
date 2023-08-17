@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
+    <title>Conditionals and Booleans</title>
     <style>
         body {
             display: grid;
@@ -28,5 +28,6 @@
     <h1>
         <?= $message ?>
     </h1>
+
 </body>
 </html>

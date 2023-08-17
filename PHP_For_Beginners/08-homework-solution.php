@@ -3,19 +3,19 @@
 $movies = [
     [
         'name' => 'Blade Runner',
-        'year' => 1982
+        'year' => 1982,
     ],
     [
         'name' => 'Princess Mononoke',
-        'year' => 1997
+        'year' => 1997,
     ],
     [
         'name' => 'Avatar',
-        'year' => 2009
+        'year' => 2009,
     ],
     [
         'name' => 'Little Miss Sunshine',
-        'year' => 2006
+        'year' => 2006,
     ],
 ];
 
@@ -34,12 +34,11 @@ function filterByYear($movies, $year)
 
 ?>
 
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>#8 - Homework</title>
+    <title>Functions and Filters - Homework</title>
 </head>
 
 <body>
